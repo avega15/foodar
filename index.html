@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="logo.png" type="image/png">
+    <title>Foodar</title>
+	
+	<style>
+		A:hover { 
+			color: #FF8C00;
+		}
+		
+		.title{
+			float:left;
+			margin-left:100px;
+			font-size:25px;
+		}
+		.center{
+			text-align: center;
+		}
+		.centerImage {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		.centered {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+		
+		.signIn{
+			float:right;
+			margin-right:100px;
+			font-size:20px;
+		}
+		.row:after{
+			content: "";
+			clear:both;
+		}
+		.column{
+			float: left;
+			width:33.33%;
+		}
+		
+	</style>
+</head>
+<body>
+	<p class="center">Banner Information</p>
+	<hr>
+	
+    <p class="title">Foodar</p>
+	<p class="signIn"><a href="#">Sign-In / Register</a> | <a href="#">...</a></p>
+	<div style="clear: both;"></div>
+	
+	<img src="banner.jpg" class="centerImage"
+	alt="banner" style>
+	<div class="centered">Try A New Meal Today</div>
+	
+	
+	<h1>Find a driver near you!</h1>
+	<p>Type in your zipcode below and click Go! to find a driver near you.</p>
+	<input type="text" maxlength="5"><input type="submit" value="Go!">
+	<hr>
+	
+	
+
+</body>
+<footer>
+	<div class="row">
+		<div class="column">
+			<p><a href="index.html">Home</a></p>
+			<p><a href="register.html">Register</a></p>
+			<p><a href="aboutUs.html">How it all works</a></p>
+		</div>
+		<div class="column">
+			<p><a href="#">Privacy Policy</a></p>
+			<p><a href="#">Terms & Conditions</a></p>
+		</div>
+		
+		<div class="column">
+			<p><a href="#">Lucky you :)</a></p>
+		</div>
+	</div>
+</footer>
+</html>

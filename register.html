@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+	<style>
+	label { 
+		vertical-align: text-top;
+		}
+	input{
+		padding: 5px;
+		margin: 3px;
+	}
+
+	.row{
+		column-count: 2;
+		float:left;
+	}
+	
+	</style>
+</head>
+
+<body>
+    <header>Foodar</header>
+	<h1>Register</h1>
+	<p>Please fill out the form below:</p>
+	
+	<div class="row">
+	<form>
+		<div class="column">
+		<fieldset>
+		<legend>Details:</legend>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+
+		<label for="password">Password:</label><br>
+		<input type="password" id="password" name="password" required><br>
+		
+		<label for="firstName">First Name:</label><br>
+		<input type="text" id="firstName" name="firstName" required><br>
+		<label for="lastName">Last Name:</label><br>
+		<input type="text" id="lastName" name="lastName"required><br>
+		</fieldset>
+		</div>
+		
+		<div class="column">
+		<fieldset>
+		<legend>Address:</legend>
+
+		<label for="address">Address:</label><br>
+		<input type="text" id="address" name="address"required><br>
+
+		<label for="street">Street:</label><br>
+		<input type="text" id="street" name="street"required><br>
+		
+		<label for="city">City:</label><br>
+		<input type="text" id="city" name="city" required><br>
+		<label for="zipcode">Zipcode:</label><br>
+		<input type="text" id="zipcode" name="zipcode"required><br>
+		</fieldset>
+		</div>
+	
+	</form>
+	</div>
+	<div style="clear: both;"></div>
+	<input class="register" type="submit" value="Register">
+
+	
+	
+</body>
+<footer>
+<div class="menu">
+	<p><a href="index.html">Homepage</a></p>
+	<p><a href="aboutUs.html">About Us</a></p>
+	<p><a href="register.html">Register</a></p>
+	<p>Foodar &copy; 2020</p>
+</div>
+
+</footer>
+</html>
